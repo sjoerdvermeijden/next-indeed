@@ -10,7 +10,7 @@ import { jobs } from '../../../../data'
 
 function Jobs({ }: Job[]) {
     return (
-        <div className='w-[500px]'>
+        <div className='w-[473px] min-w-[473px]'>
             <ul>
                 {
                     jobs?.map((item) => {

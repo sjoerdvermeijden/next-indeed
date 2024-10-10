@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Wrap>
-        <div className='flex justify-center py-12 gap-3 relative'>
+        <div className='flex justify-center py-12 gap-5 relative grow'>
           <Jobs />
           <SingleJob />
         </div>

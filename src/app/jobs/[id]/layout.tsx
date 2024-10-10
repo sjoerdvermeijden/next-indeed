@@ -13,7 +13,7 @@ export default function Layout({ children }: Props) {
     return (
         <>
             <Wrap>
-                <div className='flex justify-center py-12 gap-3 relative'>
+                <div className='flex justify-center py-12 gap-5 relative grow'>
                     <Jobs />
                     {children}
                 </div>

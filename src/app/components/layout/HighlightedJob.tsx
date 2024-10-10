@@ -1,20 +1,29 @@
 import React from 'react'
 
-import { IconBriefcase, IconClockFilled, IconCoins, IconLink } from '@tabler/icons-react';
+import { IconBriefcase, IconClockFilled, IconCoins, IconLink, IconMapPinFilled } from '@tabler/icons-react';
 
 import Image from 'next/image'
 
 import { Job } from '../../types/job'
 
-function HighlightedJob({ title, company, background_image, postal_code, contract_type }: Job) {
+function HighlightedJob({ title, company, background_image, postal_code, salary, contract_type }: Job) {
     return (
         <div className='border rounded-md w-full sticky h-[831px] top-4 left-0 overflow-scroll'>
-            <div className='aspect-[5/1] overflow-hidden'>
+            <div className='aspect-[5/1] mb-8 relative'>
                 <Image
                     src={background_image?.img}
-                    width={500}
-                    height={100}
-                    style={{ objectFit: "cover" }}
+                    width={0}
+                    height={0}
+                    style={{ height: '100px', width: '100%', objectFit: "cover" }}
+                    quality={75}
+                    alt={background_image?.alt}
+                />
+                <Image
+                    src={background_image?.img}
+                    width={0}
+                    height={0}
+                    style={{ position: 'absolute', width: '60px', height: '60px', bottom: '-30px', left: '13px', borderRadius: '3px', objectFit: "" }}
+                    quality={100}
                     alt={background_image?.alt}
                 />
             </div>
@@ -25,16 +34,23 @@ function HighlightedJob({ title, company, background_image, postal_code, contrac
                 </div>
                 <p>{postal_code}</p>
             </div>
-            <div className='border-b-1 p-4'>
-                <h3 className='text-xl font-bold mb-6'>Location:</h3>
+            <div className='border-b-1 p-4 '>
+                <h3 className='text-xl font-bold mb-6'>Locatie</h3>
+                <div className='flex items-center'>
+                    <IconMapPinFilled size={20} className='mr-4' />
+                    <p className='-mb-1'>{postal_code}</p>
+                </div>
             </div>
             <div className='border-b-1 p-4'>
-                <h3 className='text-xl font-bold mb-6'>Vacaturegegevens:</h3>
+                <h3 className='text-xl font-bold mb-6'>Vacaturegegevens</h3>
                 <ul>
-                    <li className='mb-4'>
-                        <div className='flex items-center mb-2'>
-                            <IconCoins size={20} className='mr-4' />
-                            <p className='font-bold'>Salaris</p>
+                    <li className='flex mb-4'>
+                        <IconCoins size={20} className='mr-4' />
+                        <div>
+                            <div className='flex items-center mb-2'>
+                                <p className='font-bold'>Salaris</p>
+                            </div>
+                            <div className='bg-gray-200 px-2 py-1 inline-block rounded-md text-sm font-bold'>{salary}</div>
                         </div>
                     </li>
                     <li className='flex mb-4'>

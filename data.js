@@ -11,7 +11,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Parttime'
     },
@@ -27,7 +27,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Fulltime'
     },
@@ -43,13 +43,13 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Parttime'
     },
     {
         id: 3,
-        title: 'Front-end developer',
+        title: 'Senior Front-end developer',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -59,7 +59,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'Dutch',
         contract_type: 'Fulltime'
     },
@@ -75,7 +75,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Fulltime'
     },
@@ -91,7 +91,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'Dutch',
         contract_type: 'Fulltime'
     },
@@ -107,7 +107,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Fulltime'
     },
@@ -123,7 +123,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'Dutch',
         contract_type: 'Fulltime'
     },
@@ -139,7 +139,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Fulltime'
     },
@@ -155,13 +155,13 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'Dutch',
         contract_type: 'Fulltime'
     },
     {
         id: 10,
-        title: 'Front-end developer',
+        title: 'Python developer',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -171,13 +171,13 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Fulltime'
     },
     {
         id: 11,
-        title: 'Front-end developer',
+        title: 'Java developer',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -187,7 +187,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'Dutch',
         contract_type: 'Fulltime'
     },
@@ -203,7 +203,7 @@ export const jobs = [
         short_description: 'Blablabla',
         salary: '100k',
         placed: '22-01-1992',
-        postal_code: '3133AT',
+        postal_code: '3623EG',
         vacancy_language: 'English',
         contract_type: 'Fulltime'
     },

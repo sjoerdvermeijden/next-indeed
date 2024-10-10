@@ -6,13 +6,11 @@ import { useParams } from 'next/navigation'
 import { jobs } from '../../../../data'
 import { Job } from '../../types/job'
 
-import SingleJob from '../../components/layout/HighlightedJob';
+import HighlightedJob from '../../components/layout/HighlightedJob';
 
 function JobPage({ }) {
     const [vacancy, setVacancy] = useState<Job>();
     const params = useParams<{ id: string; item: string }>()
-
-    console.log(vacancy)
 
     useEffect(() => {
         const result = jobs.filter((job) => Number(job.id) === Number(params.id));
@@ -20,9 +18,9 @@ function JobPage({ }) {
     }, [params])
 
     return (
-        <div>
-            <SingleJob {...vacancy} />
-        </div>
+        <>
+            <HighlightedJob {...vacancy} />
+        </>
     )
 }
 
