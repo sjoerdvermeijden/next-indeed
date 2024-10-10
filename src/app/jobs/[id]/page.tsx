@@ -1,11 +1,27 @@
-import React from 'react'
+'use client'
 
-type Props = {}
+import React, { useState, useEffect } from 'react'
+import { useParams } from 'next/navigation'
 
-function JobPage({ }: Props) {
+import { jobs } from '../../../../data'
+import { Job } from '../../types/job'
+
+import SingleJob from '../../components/layout/SingleJob';
+
+function JobPage({ }) {
+    const [vacancy, setVacancy] = useState<Job>();
+    const params = useParams<{ id: string; item: string }>()
+
+    console.log(vacancy)
+
+    useEffect(() => {
+        const result = jobs.filter((job) => Number(job.id) === Number(params.id));
+        setVacancy(result[0]);
+    }, [params])
+
     return (
         <div>
-            <p>Lorem, ipsum dolor.</p>
+            <SingleJob {...vacancy} />
         </div>
     )
 }

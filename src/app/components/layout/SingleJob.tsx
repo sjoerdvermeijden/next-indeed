@@ -13,10 +13,14 @@ type Job = {
     contract_type: string
 }
 
-function SingleJob({ title }: Job) {
+function SingleJob({ title, postal_code }: Job) {
     return (
         <div className='border rounded w-full p-4 sticky h-[831px] top-4 left-0 overflow-scroll'>
-            <h3 className='text-xl font-bold'>{title}</h3>
+            <div className=''>
+                <h3 className='text-2xl font-bold mb-4'>{title}</h3>
+                <p>{postal_code}</p>
+                <h3 className='text-xl font-bold'>Location:</h3>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit nunc et imperdiet euismod. Cras felis velit, consequat vel posuere at, tincidunt ac tortor. Phasellus enim lectus, sodales sit amet eros et, semper congue nisl. Morbi vel sollicitudin dui. Morbi blandit dictum turpis, non hendrerit dui varius vel. Suspendisse facilisis semper nulla, eu vehicula mi molestie at. Sed sit amet massa congue, facilisis ex id, laoreet nunc. Donec eleifend turpis sit amet orci tincidunt, vel efficitur elit bibendum. Nulla facilisi. Nullam pharetra id orci quis lacinia. In hac habitasse platea dictumst. Etiam commodo vel magna et placerat. Nullam aliquet accumsan massa at interdum. Etiam sit amet rhoncus nunc, non venenatis augue. Praesent sapien justo, euismod at malesuada in, lacinia non augue. Aenean maximus dolor quis auctor imperdiet.
 
                 In sit amet pulvinar ligula, non faucibus risus. Pellentesque volutpat turpis dolor, vitae elementum nibh tempor eget. Nunc nec tristique urna. Proin aliquam ante quis augue laoreet interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur eu euismod lacus. Mauris vel odio libero. Aenean consequat sit amet libero eu condimentum. Sed lacinia eu augue eget egestas. Aliquam lectus massa, efficitur elementum mollis eu, volutpat a leo. Phasellus dapibus ornare lorem, vel blandit tellus suscipit nec. Mauris dictum ligula quis elit sollicitudin, ut finibus nulla molestie. Proin vitae enim commodo, commodo massa iaculis, iaculis dui. Nullam sed tortor in ipsum fringilla lacinia. Vestibulum erat risus, ultricies ac rhoncus et, aliquam at ex. Quisque convallis lorem a dolor luctus, sit amet maximus sapien mattis.
