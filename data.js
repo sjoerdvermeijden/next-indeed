@@ -9,7 +9,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 1,
@@ -21,7 +21,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 2,
@@ -33,7 +33,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 3,
@@ -45,7 +45,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'Dutch',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 4,
@@ -57,7 +57,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 5,
@@ -69,7 +69,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'Dutch',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 6,
@@ -81,7 +81,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 7,
@@ -93,7 +93,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'Dutch',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 8,
@@ -105,7 +105,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 9,
@@ -117,7 +117,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'Dutch',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 10,
@@ -129,7 +129,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 11,
@@ -141,7 +141,7 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'Dutch',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
     {
         id: 12,
@@ -153,6 +153,6 @@ export const jobs = [
         placed: '22-01-1992',
         postal_code: '3133AT',
         vacancy_language: 'English',
-        contract_type: 'Full-time'
+        contract_type: 'Fulltime'
     },
 ]

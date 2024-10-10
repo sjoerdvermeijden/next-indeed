@@ -4,9 +4,7 @@ import Job from './Job'
 
 import { jobs } from '../../../../data'
 
-type Props = {}
-
-function Jobs({ }: Props) {
+function Jobs({ }: Job[]) {
     return (
         <div className='w-[500px]'>
             <ul>
