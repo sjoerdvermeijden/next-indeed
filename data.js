@@ -13,7 +13,7 @@ export const jobs = [
     },
     {
         id: 1,
-        title: 'Front-end developer',
+        title: 'Back-end developer',
         company: 'Group',
         description: '',
         short_description: 'Blablabla',
@@ -25,7 +25,7 @@ export const jobs = [
     },
     {
         id: 2,
-        title: 'Front-end developer',
+        title: 'Fullstack developer',
         company: 'Group',
         description: '',
         short_description: 'Blablabla',
