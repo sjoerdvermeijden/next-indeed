@@ -7,7 +7,7 @@ function HighlightedJob({ title, company, postal_code }: Job) {
         <div className='border rounded w-full sticky h-[831px] top-4 left-0 overflow-scroll'>
             <div className='p-4'>
                 <h3 className='text-2xl font-bold mb-4'>{title}</h3>
-                <p>{company}</p>
+                <a href="https://www.google.nl/" className='underline' target="_blank">{company}</a>
                 <p>{postal_code}</p>
             </div>
             <div className='border-b-1 p-4'>
