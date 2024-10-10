@@ -1,5 +1,5 @@
 import Jobs from './components/layout/Jobs'
-import SingleJob from './components/layout/SingleJob'
+import SingleJob from './components/layout/HighlightedJob'
 
 import Wrap from './components/layout/Wrap'
 

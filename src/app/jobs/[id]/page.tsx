@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation'
 import { jobs } from '../../../../data'
 import { Job } from '../../types/job'
 
-import SingleJob from '../../components/layout/SingleJob';
+import SingleJob from '../../components/layout/HighlightedJob';
 
 function JobPage({ }) {
     const [vacancy, setVacancy] = useState<Job>();
