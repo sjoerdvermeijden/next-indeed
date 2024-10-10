@@ -15,7 +15,7 @@ type Job = {
 
 function Job({ title, company, short_description, postal_code, contract_type }: Job) {
     return (
-        <div className='p-4 border rounded transition-colors duration-200 hover:shadow-md hover:cursor-pointer hover:border-slate-500'>
+        <div className='p-4 border w-[470px] rounded transition-colors duration-200 hover:shadow-md hover:cursor-pointer hover:border-slate-500'>
             <h1 className='text-xl font-bold'>{title}</h1>
             <p>{company}</p>
             <p>{postal_code}</p>
