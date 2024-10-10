@@ -6,7 +6,7 @@ type Props = {
 
 function Wrap({ children }: Props) {
     return (
-        <div className='container mx-auto'>
+        <div className='flex justify-center'>
             {children}
         </div>
     )
