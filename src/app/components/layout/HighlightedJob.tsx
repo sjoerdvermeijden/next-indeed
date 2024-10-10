@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { IconArrowLeft } from '@tabler/icons-react';
+import { IconBriefcase, IconClockFilled, IconCoins } from '@tabler/icons-react';
 
 import Image from 'next/image'
 
@@ -30,15 +30,15 @@ function HighlightedJob({ title, company, background_image, postal_code }: Job) 
                 <h3 className='text-xl font-bold mb-6'>Location:</h3>
                 <ul>
                     <li className='flex items-center mb-4'>
-                        <IconArrowLeft color="red" size={22} className='mr-4' />
+                        <IconCoins size={20} className='mr-4' />
                         <p className='font-bold'>Salaris</p>
                     </li>
                     <li className='flex items-center mb-4'>
-                        <IconArrowLeft color="red" size={22} className='mr-4' />
+                        <IconBriefcase size={20} className='mr-4' />
                         <p className='font-bold'>Dienstverband</p>
                     </li>
                     <li className='flex items-center mb-4'>
-                        <IconArrowLeft color="red" size={22} className='mr-4' />
+                        <IconClockFilled size={20} className='mr-4' />
                         <p className='font-bold'>Werkdagen</p>
                     </li>
                 </ul>
