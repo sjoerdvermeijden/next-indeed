@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 import { Job } from '../../types/job'
 
-function HighlightedJob({ title, company, background_image, postal_code, salary, contract_type }: Job) {
+function HighlightedJob({ title, company, background_image, postal_code, salary, contract_type, work_days }: Job) {
     return (
         <div className='border rounded-md w-full sticky h-[831px] top-4 left-0 overflow-scroll'>
             <div className='aspect-[5/1] mb-8 relative'>
@@ -35,14 +35,14 @@ function HighlightedJob({ title, company, background_image, postal_code, salary,
                 <p>{postal_code}</p>
             </div>
             <div className='border-b-1 p-4 '>
-                <h3 className='text-xl font-bold mb-6'>Locatie</h3>
+                <h3 className='text-xl font-bold mb-4'>Locatie</h3>
                 <div className='flex items-center'>
                     <IconMapPinFilled size={20} className='mr-4' />
                     <p className='-mb-1'>{postal_code}</p>
                 </div>
             </div>
             <div className='border-b-1 p-4'>
-                <h3 className='text-xl font-bold mb-6'>Vacaturegegevens</h3>
+                <h3 className='text-xl font-bold mb-4'>Vacaturegegevens</h3>
                 <ul>
                     <li className='flex mb-4'>
                         <IconCoins size={20} className='mr-4' />
@@ -65,10 +65,13 @@ function HighlightedJob({ title, company, background_image, postal_code, salary,
                             </ul>
                         </div>
                     </li>
-                    <li className='mb-4'>
-                        <div className='flex items-center mb-2'>
-                            <IconClockFilled size={20} className='mr-4' />
-                            <p className='font-bold'>Werkdagen</p>
+                    <li className='flex mb-4'>
+                        <IconClockFilled size={20} className='mr-4' />
+                        <div>
+                            <div className='flex items-center mb-2'>
+                                <p className='font-bold'>Werkdagen</p>
+                            </div>
+                            <div className='bg-gray-200 px-2 py-1 inline-block rounded-md text-sm font-bold'>{work_days}</div>
                         </div>
                     </li>
                 </ul>

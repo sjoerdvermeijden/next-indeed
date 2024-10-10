@@ -9,11 +9,12 @@ export const jobs = [
         },
         description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English.',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Parttime'
+        contract_type: 'Parttime',
+        work_days: 'ma-vr'
     },
     {
         id: 1,
@@ -25,11 +26,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 2,
@@ -41,11 +43,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Parttime'
+        contract_type: 'Parttime',
+        work_days: 'ma-vr'
     },
     {
         id: 3,
@@ -57,11 +60,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'Dutch',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 4,
@@ -73,11 +77,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 5,
@@ -89,11 +94,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'Dutch',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 6,
@@ -105,11 +111,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 7,
@@ -121,11 +128,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'Dutch',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 8,
@@ -137,11 +145,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 9,
@@ -153,11 +162,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'Dutch',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 10,
@@ -169,11 +179,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 11,
@@ -185,11 +196,12 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'Dutch',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
     {
         id: 12,
@@ -201,10 +213,11 @@ export const jobs = [
         },
         description: '',
         short_description: 'Blablabla',
-        salary: '100k',
+        salary: '€3400 - €4400 per maand',
         placed: '22-01-1992',
         postal_code: '3623EG',
         vacancy_language: 'English',
-        contract_type: 'Fulltime'
+        contract_type: 'Fulltime',
+        work_days: 'ma-vr'
     },
 ]

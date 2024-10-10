@@ -13,5 +13,6 @@ export type Job = {
     postal_code: string,
     placed: string,
     vacancy_language: string,
-    contract_type: string
+    contract_type: string,
+    work_days: string
 }
