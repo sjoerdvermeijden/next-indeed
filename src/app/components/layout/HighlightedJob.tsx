@@ -1,11 +1,22 @@
 import React from 'react'
 
+import Image from 'next/image'
+
 import { Job } from '../../types/job'
 
-function HighlightedJob({ title, company, postal_code }: Job) {
+function HighlightedJob({ title, company, background_image, postal_code }: Job) {
     return (
-        <div className='border rounded w-full sticky h-[831px] top-4 left-0 overflow-scroll'>
-            <div className='p-4'>
+        <div className='border rounded-md w-full sticky h-[831px] top-4 left-0 overflow-scroll'>
+            <div className='aspect-[5/1] overflow-hidden'>
+                <Image
+                    src={background_image?.img}
+                    width={500}
+                    height={100}
+                    style={{ objectFit: "cover" }}
+                    alt={background_image?.alt}
+                />
+            </div>
+            <div className='p-4 shadow-md'>
                 <h3 className='text-2xl font-bold mb-4'>{title}</h3>
                 <a href="https://www.google.nl/" className='underline' target="_blank">{company}</a>
                 <p>{postal_code}</p>

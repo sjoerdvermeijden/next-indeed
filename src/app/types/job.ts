@@ -1,6 +1,11 @@
 export type Job = {
     id: number,
     title: string,
+    background_image: {
+        alt: string,
+        img: string,
+    },
+    thumbnail: string,
     company: string,
     description: string,
     short_description: string,
