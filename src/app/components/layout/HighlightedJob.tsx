@@ -24,10 +24,10 @@ function HighlightedJob({ title, company, background_image, postal_code }: Job) 
                 <p>{postal_code}</p>
             </div>
             <div className='border-b-1 p-4'>
-                <h3 className='text-xl font-bold'>Vacaturegegevens:</h3>
+                <h3 className='text-xl font-bold mb-6'>Location:</h3>
             </div>
             <div className='border-b-1 p-4'>
-                <h3 className='text-xl font-bold mb-6'>Location:</h3>
+                <h3 className='text-xl font-bold mb-6'>Vacaturegegevens:</h3>
                 <ul>
                     <li className='flex items-center mb-4'>
                         <IconCoins size={20} className='mr-4' />
