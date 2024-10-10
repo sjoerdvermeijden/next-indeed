@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { IconArrowLeft } from '@tabler/icons-react';
+
 import Image from 'next/image'
 
 import { Job } from '../../types/job'
@@ -25,11 +27,20 @@ function HighlightedJob({ title, company, background_image, postal_code }: Job) 
                 <h3 className='text-xl font-bold'>Vacaturegegevens:</h3>
             </div>
             <div className='border-b-1 p-4'>
-                <h3 className='text-xl font-bold'>Location:</h3>
+                <h3 className='text-xl font-bold mb-6'>Location:</h3>
                 <ul>
-                    <li><p className='font-bold'>Salaris</p></li>
-                    <li><p className='font-bold'>Dienstverband</p></li>
-                    <li><p className='font-bold'>Werkdagen</p></li>
+                    <li className='flex items-center mb-4'>
+                        <IconArrowLeft color="red" size={22} className='mr-4' />
+                        <p className='font-bold'>Salaris</p>
+                    </li>
+                    <li className='flex items-center mb-4'>
+                        <IconArrowLeft color="red" size={22} className='mr-4' />
+                        <p className='font-bold'>Dienstverband</p>
+                    </li>
+                    <li className='flex items-center mb-4'>
+                        <IconArrowLeft color="red" size={22} className='mr-4' />
+                        <p className='font-bold'>Werkdagen</p>
+                    </li>
                 </ul>
             </div>
         </div>

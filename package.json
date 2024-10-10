@@ -12,6 +12,8 @@
     "@nextui-org/button": "^2.0.38",
     "@nextui-org/system": "^2.2.6",
     "@nextui-org/theme": "^2.2.11",
+    "@tabler/icons": "^3.19.0",
+    "@tabler/icons-react": "^3.19.0",
     "framer-motion": "^11.11.4",
     "next": "14.2.15",
     "react": "^18",
