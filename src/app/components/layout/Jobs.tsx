@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Link from 'next/link'
+
 import Job from './Job'
 
 import { jobs } from '../../../../data'
@@ -11,7 +13,9 @@ function Jobs({ }: Job[]) {
                 {
                     jobs?.map((item) => {
                         return <li key={item.id} className='[&:not(:last-child)]:mb-3'>
-                            <Job {...item} />
+                            <Link href={`/jobs/${item.id}`}>
+                                <Job {...item} />
+                            </Link>
                         </li>;
                     })
                 }
