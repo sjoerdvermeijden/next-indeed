@@ -15,16 +15,23 @@ function HighlightedJob({ title, company, background_image, description, postal_
                         src={background_image?.img}
                         width={0}
                         height={0}
-                        style={{ height: '100px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
+                        style={{ height: '110px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
                         quality={75}
                         alt={background_image?.alt}
                     />
-                    <div className='w-[60px] h-[60px] rounded-md shadow-md absolute top-[70px] left-4 z-10 bg-white flex items-center justify-center text-3xl'>SV</div>
+                    <Image
+                        src="https://placehold.co/60x60"
+                        width={0}
+                        height={0}
+                        style={{ height: '60px', width: '60px', borderRadius: '5px', position: 'absolute', top: '80px', left: '14px', objectFit: "cover", boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)' }}
+                        quality={75}
+                        alt={background_image?.alt}
+                    />
                 </div>
                 <div className='p-4 shadow-md'>
                     <div className='mb-2'>
                         <h3 className='text-2xl font-bold mb-4'>{title}</h3>
-                        <div className='flex mb-1'>
+                        <div className='flex items-center mb-1'>
                             <a href="https://www.google.nl/" className='underline mr-2 text-lg' target="_blank">{company}</a><IconLink size={20} />
                         </div>
                         <p className='text-lg'>{postal_code}</p>
@@ -36,14 +43,14 @@ function HighlightedJob({ title, company, background_image, description, postal_
             </div>
             <div className='overflow-y-auto'>
                 <div className='border-b-1 p-4 '>
-                    <h3 className='text-xl font-bold mb-4'>Locatie</h3>
+                    <h3 className='text-2xl font-bold mb-4'>Locatie</h3>
                     <div className='flex items-center'>
                         <IconMapPinFilled size={20} className='mr-4' />
                         <p className='-mb-1 text-lg'>{postal_code}</p>
                     </div>
                 </div>
                 <div className='border-b-1 p-4'>
-                    <h3 className='text-xl font-bold mb-4'>Vacaturegegevens</h3>
+                    <h3 className='text-2xl font-bold mb-4'>Vacaturegegevens</h3>
                     <ul>
                         <li className='flex mb-4'>
                             <IconCoins size={20} className='mr-4' />
