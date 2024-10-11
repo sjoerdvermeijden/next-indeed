@@ -12,7 +12,7 @@ function HighlightedJob({ title, company, background_image, description, postal_
             <div className='sticky'>
                 <div className='aspect-[5/1] mb-8 relative'>
                     <Image
-                        src={background_image?.img}
+                        src="https://placehold.co/530x120"
                         width={0}
                         height={0}
                         style={{ height: '110px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
