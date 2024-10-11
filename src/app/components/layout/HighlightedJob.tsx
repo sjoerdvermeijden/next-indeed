@@ -19,21 +19,19 @@ function HighlightedJob({ title, company, background_image, description, postal_
                         quality={75}
                         alt={background_image?.alt}
                     />
-                    <Image
-                        src={background_image?.img}
-                        width={0}
-                        height={0}
-                        style={{ position: 'absolute', width: '60px', height: '60px', bottom: '-30px', left: '13px', borderRadius: '3px' }}
-                        quality={100}
-                        alt={background_image?.alt}
-                    />
+                    <div className='w-[60px] h-[60px] rounded-md shadow-md absolute top-[70px] left-4 z-10 bg-white flex items-center justify-center text-3xl'>SV</div>
                 </div>
                 <div className='p-4 shadow-md'>
-                    <h3 className='text-2xl font-bold mb-4'>{title}</h3>
-                    <div className='flex mb-1'>
-                        <a href="https://www.google.nl/" className='underline mr-2' target="_blank">{company}</a><IconLink size={20} />
+                    <div className='mb-2'>
+                        <h3 className='text-2xl font-bold mb-4'>{title}</h3>
+                        <div className='flex mb-1'>
+                            <a href="https://www.google.nl/" className='underline mr-2 text-lg' target="_blank">{company}</a><IconLink size={20} />
+                        </div>
+                        <p className='text-lg'>{postal_code}</p>
                     </div>
-                    <p>{postal_code}</p>
+                    <div className='flex'>
+                        <p className='text-lg'>{salary} - {contract_type}</p>
+                    </div>
                 </div>
             </div>
             <div className='overflow-y-auto'>
@@ -41,7 +39,7 @@ function HighlightedJob({ title, company, background_image, description, postal_
                     <h3 className='text-xl font-bold mb-4'>Locatie</h3>
                     <div className='flex items-center'>
                         <IconMapPinFilled size={20} className='mr-4' />
-                        <p className='-mb-1'>{postal_code}</p>
+                        <p className='-mb-1 text-lg'>{postal_code}</p>
                     </div>
                 </div>
                 <div className='border-b-1 p-4'>

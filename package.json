@@ -11,6 +11,7 @@
   "dependencies": {
     "@nextui-org/button": "^2.0.38",
     "@nextui-org/system": "^2.2.6",
+    "@nextui-org/tabs": "^2.0.37",
     "@nextui-org/theme": "^2.2.11",
     "@tabler/icons": "^3.19.0",
     "@tabler/icons-react": "^3.19.0",

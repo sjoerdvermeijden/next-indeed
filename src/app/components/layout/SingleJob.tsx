@@ -9,8 +9,8 @@ function SingleJob({ id, title, company, short_description, postal_code, contrac
     const pathname = usePathname()
 
     return (
-        <div className={`p-4 border ${pathname === `/jobs/${id}` ? 'border-blue-900' : ''} w-full rounded-md group transition-colors duration-200 hover:shadow-md hover:cursor-pointer`}>
-            <h1 className='text-xl font-bold mb-2 group-hover:underline'>{title}</h1>
+        <div className={`p-4 border ${pathname === `/jobs/${id}` ? 'border-blue-900' : ''} w-full rounded-md group transition-colors duration-200 hover:shadow-md hover:cursor-pointer relative`}>
+            <h3 className='text-2xl font-bold mb-2 group-hover:underline'>{title}</h3>
             <div className='mb-2'>
                 <p>{company}</p>
                 <p>{postal_code}</p>
