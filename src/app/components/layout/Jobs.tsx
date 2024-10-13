@@ -25,7 +25,7 @@ function Jobs({ }: Job[]) {
                     jobs?.map((item) => {
                         return <li key={item.id} className='[&:not(:last-child)]:mb-3'>
                             <Link href={`/jobs/${item.id}`} onClick={() =>
-                                sessionStorage.setItem('scrollPosition', window.scrollY)
+                                sessionStorage.setItem('scrollPosition', window.scrollY.toString())
                             }>
                                 <SingleJob {...item} />
                             </Link>

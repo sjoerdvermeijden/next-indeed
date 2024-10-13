@@ -5,7 +5,7 @@ import React from 'react'
 import { usePathname } from 'next/navigation'
 import { Job } from '../../types/job'
 
-function SingleJob({ id, title, company, short_description, postal_code, contract_type }: Job) {
+function SingleJob({ id, title, company, short_description, postal_code, contract_type, thumbnail }: Job) {
     const pathname = usePathname()
 
     return (
