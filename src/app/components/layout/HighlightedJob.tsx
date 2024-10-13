@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 import { Job } from '../../types/job'
 
-function HighlightedJob({ title, company, background_image, description, postal_code, salary, contract_type, work_days }: Job) {
+function HighlightedJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
     return (
         <div className='border rounded-md w-full sticky h-screen overflow-hidden top-4 left-0'>
             <div className='sticky'>
@@ -17,7 +17,7 @@ function HighlightedJob({ title, company, background_image, description, postal_
                         height={0}
                         style={{ height: '110px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
                         quality={75}
-                        alt={background_image?.alt}
+                        alt="placeholder"
                     />
                     <Image
                         src="https://placehold.co/60x60"
@@ -25,7 +25,7 @@ function HighlightedJob({ title, company, background_image, description, postal_
                         height={0}
                         style={{ height: '60px', width: '60px', borderRadius: '5px', position: 'absolute', top: '80px', left: '14px', objectFit: "cover", boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)' }}
                         quality={75}
-                        alt={background_image?.alt}
+                        alt="placeholder"
                     />
                 </div>
                 <div className='p-4 shadow-md'>

@@ -17,11 +17,13 @@ type SearchItem = {
 type SearchContextProps = {
     searchItems: SearchItem[];
     setSearchItems: Dispatch<SetStateAction<SearchItem[]>>;
+    addItem: (search: SearchItem) => void;
 };
 
 const SearchContextState = {
     searchItems: [],
     setSearchItems: () => [],
+    addItem: () => [],
 };
 
 export const SearchContext = createContext<SearchContextProps>(SearchContextState);

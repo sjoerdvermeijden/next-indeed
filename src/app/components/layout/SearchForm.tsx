@@ -3,15 +3,20 @@ import React, { useContext, useState, useEffect } from 'react'
 import { SearchContext } from '@/app/context/searchContext'
 
 function SearchForm({ }) {
-    const [searchItems, setSearchItems] = useContext(SearchContext);
+    const [searchItems, addItem] = useContext(SearchContext);
     const [inputValue, setInputValue] = useState<string>('');
 
     const handleSubmit = (e: React.SyntheticEvent) => {
         e.preventDefault();
         console.log(searchItems);
 
-        setSearchItems([...searchItems, { id: searchItems.length + 1, title: inputValue }])
+        addItem({ id: searchItems.length + 1, title: inputValue })
     }
+
+    useEffect(() => {
+        console.log(searchItems);
+    }, [searchItems])
+
 
     return (
         <form className="max-w-md w-[500px] mx-auto mb-8" onSubmit={handleSubmit}>

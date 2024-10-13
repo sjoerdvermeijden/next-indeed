@@ -26,7 +26,7 @@ type SearchItem = {
 export default function Home({ }) {
   const [vacancy, setVacancy] = useState<Job>();
 
-  const [searchItems, setSearchItems] = useContext(SearchContext);
+  const [searchItems] = useContext(SearchContext);
 
   useEffect(() => {
     const result = jobs.filter((job) => Number(job.id) === 0);
