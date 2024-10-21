@@ -81,7 +81,7 @@ export const jobs = [
     },
     {
         id: 4,
-        title: 'Front-end developer',
+        title: 'Officemanager',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -101,7 +101,7 @@ export const jobs = [
     },
     {
         id: 5,
-        title: 'Front-end developer',
+        title: 'Accountmanager',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -121,7 +121,7 @@ export const jobs = [
     },
     {
         id: 6,
-        title: 'Front-end developer',
+        title: 'Senior accountmanager',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -141,7 +141,7 @@ export const jobs = [
     },
     {
         id: 7,
-        title: 'Front-end developer',
+        title: 'NodeJS developer',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
@@ -181,7 +181,7 @@ export const jobs = [
     },
     {
         id: 9,
-        title: 'Front-end developer',
+        title: 'Project manager',
         company: 'Group',
         background_image: {
             img: 'https://plus.unsplash.com/premium_photo-1661765192121-f398fd1e8fa2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',

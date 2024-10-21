@@ -1,25 +1,10 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React from 'react'
 
-import { SearchContext } from '@/app/context/searchContext'
+import { } from '@/app/context/searchContext'
 
 function SearchForm({ }) {
-    const [searchItems, addItem] = useContext(SearchContext);
-    const [inputValue, setInputValue] = useState<string>('');
-
-    const handleSubmit = (e: React.SyntheticEvent) => {
-        e.preventDefault();
-        console.log(searchItems);
-
-        addItem({ id: searchItems.length + 1, title: inputValue })
-    }
-
-    useEffect(() => {
-        console.log(searchItems);
-    }, [searchItems])
-
-
     return (
-        <form className="max-w-md w-[500px] mx-auto mb-8" onSubmit={handleSubmit}>
+        <form className="max-w-md w-[500px] mx-auto mb-8">
             <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
             <div className="relative">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
