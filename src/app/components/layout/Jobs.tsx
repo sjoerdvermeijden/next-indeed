@@ -8,7 +8,7 @@ import SingleJob from './SingleJob'
 
 import { Job } from '../../types/job'
 
-import { jobs } from '../../../../data'
+import { joblist } from '../../../../data'
 
 function Jobs({ }: Job[]) {
     useEffect(() => {
@@ -22,7 +22,7 @@ function Jobs({ }: Job[]) {
         <div className='w-[473px] min-w-[473px]'>
             <ul>
                 {
-                    jobs?.map((item) => {
+                    joblist.map((item) => {
                         return <li key={item.id} className='[&:not(:last-child)]:mb-3'>
                             <Link href={`/jobs/${item.id}`} onClick={() =>
                                 sessionStorage.setItem('scrollPosition', window.scrollY.toString())

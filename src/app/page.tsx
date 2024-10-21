@@ -2,7 +2,7 @@
 
 import Jobs from './components/layout/Jobs'
 
-import { jobs } from '../../data'
+import { joblist } from '../../data'
 
 import React, { useEffect, useState, useContext } from 'react'
 
@@ -29,7 +29,7 @@ export default function Home({ }) {
   const [searchItems] = useContext(SearchContext);
 
   useEffect(() => {
-    const result = jobs.filter((job) => Number(job.id) === 0);
+    const result = joblist.filter((job) => Number(job.id) === 0);
     setVacancy(result[0]);
   }, [])
 
