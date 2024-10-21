@@ -29,6 +29,7 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                         src="https://placehold.co/530x120"
                         width={0}
                         height={0}
+                        priority
                         style={{ height: '110px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
                         quality={75}
                         alt="placeholder"
