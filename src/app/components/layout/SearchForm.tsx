@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { } from '@/app/context/searchContext'
-
 function SearchForm({ }) {
     return (
         <form className="max-w-md w-[500px] mx-auto mb-8">
