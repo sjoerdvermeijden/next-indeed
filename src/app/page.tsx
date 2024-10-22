@@ -22,14 +22,13 @@ type SearchItem = {
   title: string
 }
 
-
 export default function Home({ }) {
   const [vacancy, setVacancy] = useState<Job>();
 
   const [searchItems] = useContext(SearchContext);
 
   useEffect(() => {
-    const result = joblist.filter((job) => Number(job.id) === 0);
+    const result = joblist.filter((job) => Number(job.id) === 1);
     setVacancy(result[0]);
   }, [])
 
