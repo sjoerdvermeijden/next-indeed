@@ -6,11 +6,9 @@ import Link from 'next/link'
 
 import SingleJob from './SingleJob'
 
-import { Job } from '../../types/job'
-
 import { joblist } from '../../../../data'
 
-function Jobs({ }: Job[]) {
+function Jobs({ }) {
     useEffect(() => {
         const scrollPosition = sessionStorage.getItem('scrollPosition');
         if (scrollPosition) {

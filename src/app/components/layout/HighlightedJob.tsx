@@ -22,7 +22,7 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
     }, []);
 
     return (
-        <div className={`border rounded-md w-full sticky h-[${jobHeight}px] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto`}>
+        <div className={`border rounded-md w-full sticky h-[750px] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto`}>
             <div className='sticky top-0 left-0 bg-white'>
                 <div className='aspect-[5/1] mb-8 relative'>
                     <Image
