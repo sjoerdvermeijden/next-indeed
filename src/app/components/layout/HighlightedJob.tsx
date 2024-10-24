@@ -1,7 +1,5 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
-
 import { IconBriefcase, IconClockFilled, IconCoins, IconLink, IconMapPinFilled } from '@tabler/icons-react';
 
 import Image from 'next/image'
@@ -9,20 +7,9 @@ import Image from 'next/image'
 import { Job } from '../../types/job'
 
 function HighlightedJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
-    const [height, setHeight] = useState<number>(window.innerHeight);
-    const [jobHeight, setJobHeight] = useState<number>(0);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setHeight(window.innerHeight);
-            setJobHeight(height - 16);
-        }
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
 
     return (
-        <div className={`border rounded-md w-full sticky h-[750px] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto`}>
+        <div className="border rounded-md w-full sticky h-[calc(100vh-89px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
             <div className='sticky top-0 left-0 bg-white'>
                 <div className='aspect-[5/1] mb-8 relative'>
                     <Image
@@ -45,7 +32,10 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                 </div>
                 <div className='p-4 shadow-md'>
                     <div className='mb-2'>
-                        <h3 className='text-2xl font-bold mb-4'>{title}</h3>
+                        {
+                            title &&
+                            <h3 className='text-2xl font-bold mb-4'>{title}</h3>
+                        }
                         <div className='flex items-center mb-1'>
                             <a href="https://www.google.nl/" className='underline mr-2 text-lg' target="_blank">{company}</a><IconLink size={20} />
                         </div>
