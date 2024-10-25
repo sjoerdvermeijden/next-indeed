@@ -11,8 +11,6 @@ import { Job } from './types/job'
 import Wrap from './components/layout/Wrap'
 import SearchForm from './components/layout/SearchForm'
 
-import { Tabs, Tab } from "@nextui-org/tabs";
-
 import HighlightedJob from './components/layout/HighlightedJob';
 
 export default function Home({ }) {
@@ -28,8 +26,10 @@ export default function Home({ }) {
       <Wrap>
         <div className='flex flex-col items-center py-8'>
           <SearchForm />
-          <Jobs />
-          <HighlightedJob {...vacancy} />
+          <div className='flex justify-center gap-5 relative grow'>
+            <Jobs />
+            <HighlightedJob {...vacancy} />
+          </div>
         </div>
       </Wrap>
     </>

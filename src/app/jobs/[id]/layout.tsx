@@ -8,8 +8,6 @@ import SearchForm from '@/app/components/layout/SearchForm';
 
 import Providers from '../../providers'
 
-import { Tabs, Tab } from "@nextui-org/tabs";
-
 type Props = {
     children: React.ReactNode;
 }
@@ -21,8 +19,10 @@ export default function Layout({ children }: Props) {
                 <Providers>
                     <div className='flex flex-col items-center py-12'>
                         <SearchForm />
-                        <Jobs />
-                        {children}
+                        <div className='flex justify-center gap-5 relative grow'>
+                            <Jobs />
+                            {children}
+                        </div>
                     </div>
                 </Providers>
             </Wrap>
