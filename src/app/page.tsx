@@ -28,21 +28,8 @@ export default function Home({ }) {
       <Wrap>
         <div className='flex flex-col items-center py-8'>
           <SearchForm />
-          <Tabs aria-label="Options" className='mb-6'>
-            <Tab key="vacancies" title="Vacatures voor jou">
-              <div className='flex justify-center gap-5 relative grow'>
-                <Jobs />
-                <HighlightedJob {...vacancy} />
-              </div>
-            </Tab>
-            <Tab key="search-results" title="Recente zoekopdrachten">
-              <div className='flex justify-center gap-5 relative grow'>
-                <ul>
-                  <li>Test</li>
-                </ul>
-              </div>
-            </Tab>
-          </Tabs>
+          <Jobs />
+          <HighlightedJob {...vacancy} />
         </div>
       </Wrap>
     </>

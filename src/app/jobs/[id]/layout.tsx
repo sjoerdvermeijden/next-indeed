@@ -21,19 +21,8 @@ export default function Layout({ children }: Props) {
                 <Providers>
                     <div className='flex flex-col items-center py-12'>
                         <SearchForm />
-                        <Tabs aria-label="Options" className='mb-6'>
-                            <Tab key="vacancies" title="Vacatures voor jou">
-                                <div className='flex justify-center gap-5 relative grow'>
-                                    <Jobs />
-                                    {children}
-                                </div>
-                            </Tab>
-                            <Tab key="search-results" title="Recente zoekopdrachten">
-                                <div className='flex justify-center gap-5 relative grow'>
-                                    <p>Test test</p>
-                                </div>
-                            </Tab>
-                        </Tabs>
+                        <Jobs />
+                        {children}
                     </div>
                 </Providers>
             </Wrap>
