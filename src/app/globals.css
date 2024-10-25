@@ -29,3 +29,8 @@ body {
     text-wrap: balance;
   }
 }
+
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}

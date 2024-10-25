@@ -18,7 +18,7 @@ function Jobs({ }) {
     }, []);
     return (
         <div className='w-[473px] min-w-[473px]'>
-            <ul>
+            <ul className='list-none'>
                 {
                     joblist.map((item) => {
                         return <li key={item.id} className='[&:not(:last-child)]:mb-3'>

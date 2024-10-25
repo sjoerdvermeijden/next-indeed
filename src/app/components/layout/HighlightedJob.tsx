@@ -72,7 +72,7 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                                 <div className='flex items-center mb-2'>
                                     <p className='font-bold'>Dienstverband</p>
                                 </div>
-                                <ul>
+                                <ul className='list-none'>
                                     <li></li>
                                     <li><div className='bg-gray-200 px-2 py-1 inline-block rounded-md text-sm font-bold'>{contract_type}</div></li>
                                 </ul>
@@ -90,12 +90,10 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                     </ul>
                 </div>
                 <div>
-                    <div className='p-4'>
-                        <p>{description}</p>
-                    </div>
+                    <div className='p-4' dangerouslySetInnerHTML={{ __html: description }}></div>
                 </div>
-            </div >
-        </div>
+            </div>
+        </div >
     )
 }
 
