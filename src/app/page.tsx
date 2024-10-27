@@ -23,7 +23,7 @@ export default function Home({ }) {
   return (
     <>
       <Wrap>
-        <div className='flex justify-center gap-5 relative grow'>
+        <div className='flex justify-center gap-5 py-12 relative grow'>
           <Jobs />
           <HighlightedJob {...vacancy} />
         </div>

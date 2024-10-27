@@ -13,15 +13,10 @@ export default function Layout({ children }: Props) {
     return (
         <>
             <Wrap>
-                <Providers>
-                    <div className='flex flex-col items-center py-12'>
-                        <SearchForm />
-                        <div className='flex justify-center gap-5 relative grow'>
-                            <Jobs />
-                            {children}
-                        </div>
-                    </div>
-                </Providers>
+                <div className='flex justify-center gap-5 py-12 relative grow'>
+                    <Jobs />
+                    {children}
+                </div>
             </Wrap>
         </>
     )
