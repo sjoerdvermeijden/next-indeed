@@ -4,9 +4,6 @@ import React from 'react'
 
 import Wrap from '../../components/layout/Wrap';
 import Jobs from '../../components/layout/Jobs';
-import SearchForm from '@/app/components/layout/SearchForm';
-
-import Providers from '../../providers'
 
 type Props = {
     children: React.ReactNode;

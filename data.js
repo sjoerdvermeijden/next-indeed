@@ -1,5 +1,6 @@
-let jobs = [
+export const jobs = [
     {
+        id: 0,
         title: 'Front-end developer',
         company: 'Group',
         background_image: {
@@ -19,6 +20,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 1,
         title: 'Back-end developer',
         company: 'Group',
         background_image: {
@@ -38,6 +40,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 2,
         title: 'Fullstack developer',
         company: 'Group',
         background_image: {
@@ -57,6 +60,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 3,
         title: 'Senior Front-end developer',
         company: 'Group',
         background_image: {
@@ -76,6 +80,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 4,
         title: 'Officemanager',
         company: 'Group',
         background_image: {
@@ -95,6 +100,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 5,
         title: 'Accountmanager',
         company: 'Group',
         background_image: {
@@ -114,6 +120,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 6,
         title: 'Senior accountmanager',
         company: 'Group',
         background_image: {
@@ -133,6 +140,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 7,
         title: 'NodeJS developer',
         company: 'Group',
         background_image: {
@@ -152,6 +160,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 8,
         title: 'Junior Front-end developer',
         company: 'Group',
         background_image: {
@@ -171,6 +180,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 9,
         title: 'Project manager',
         company: 'Group',
         background_image: {
@@ -191,6 +201,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 10,
         title: 'Python developer',
         company: 'Group',
         background_image: {
@@ -210,6 +221,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 11,
         title: 'Java developer',
         company: 'Group',
         background_image: {
@@ -229,6 +241,7 @@ let jobs = [
         posted_on: '1728648193'
     },
     {
+        id: 12,
         title: 'DevOps',
         company: 'Group',
         background_image: {
@@ -248,5 +261,3 @@ let jobs = [
         posted_on: '1728648193'
     },
 ]
-
-export const joblist = jobs.map((item, index) => ({ ...item, id: index + 1 }))
