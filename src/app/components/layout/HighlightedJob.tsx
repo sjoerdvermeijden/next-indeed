@@ -32,10 +32,7 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                 </div>
                 <div className='p-4 shadow-md'>
                     <div className='mb-2'>
-                        {
-                            title &&
-                            <h3 className='text-2xl font-bold mb-4'>{title}</h3>
-                        }
+                        <h3 className='text-2xl font-bold mb-4'>{title}</h3>
                         <div className='flex items-center mb-1'>
                             <a href="https://www.google.nl/" className='underline mr-2 text-lg' target="_blank">{company}</a><IconLink size={20} />
                         </div>

@@ -25,7 +25,10 @@ export default function Home({ }) {
       <Wrap>
         <div className='flex justify-center gap-5 py-12 relative grow'>
           <Jobs />
-          <HighlightedJob {...vacancy} />
+          {
+            vacancy &&
+            <HighlightedJob {...vacancy} />
+          }
         </div>
       </Wrap>
     </>

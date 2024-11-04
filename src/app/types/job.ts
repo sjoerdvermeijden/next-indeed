@@ -1,5 +1,5 @@
 export type Job = {
-    id?: number | undefined,
+    id: number,
     title: string,
     background_image: {
         alt: string,
