@@ -19,7 +19,10 @@ function JobPage({ }) {
 
     return (
         <>
-            <HighlightedJob {...vacancy} />
+            {
+                vacancy &&
+                <HighlightedJob {...vacancy} />
+            }
         </>
     )
 }
