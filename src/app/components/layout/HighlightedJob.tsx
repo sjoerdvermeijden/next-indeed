@@ -11,13 +11,13 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
     return (
         <div className="border rounded-md w-full sticky h-[calc(100vh-30px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
             <div className='sticky top-0 left-0 bg-white'>
-                <div className='aspect-[5/1] mb-8 relative'>
+                <div className='aspect-[5/1] mb-11 relative'>
                     <Image
                         src="https://placehold.co/530x120"
                         width={0}
                         height={0}
                         priority
-                        style={{ height: '110px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
+                        style={{ height: '180px', width: '100%', borderTopLeftRadius: '3px', borderTopRightRadius: '3px', objectFit: "cover" }}
                         quality={75}
                         alt="placeholder"
                     />
@@ -25,7 +25,7 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                         src="https://placehold.co/60x60"
                         width={0}
                         height={0}
-                        style={{ height: '60px', width: '60px', borderRadius: '5px', position: 'absolute', top: '80px', left: '14px', objectFit: "cover", boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)' }}
+                        style={{ height: '60px', width: '60px', borderRadius: '5px', position: 'absolute', top: '160px', left: '14px', objectFit: "cover", boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)' }}
                         quality={75}
                         alt="placeholder"
                     />

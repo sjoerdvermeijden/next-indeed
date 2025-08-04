@@ -17,11 +17,11 @@ function Jobs({ }) {
         }
     }, []);
     return (
-        <div className='w-[473px] min-w-[473px]'>
+        <div className='w-[495px] min-w-[495px]'>
             <ul className='list-none'>
                 {
                     jobs.map((item) => {
-                        return <li key={item.id} className='[&:not(:last-child)]:mb-3'>
+                        return <li key={item.id} className='[&:not(:last-child)]:mb-3.5'>
                             <Link href={`/jobs/${item.id}`} onClick={() =>
                                 sessionStorage.setItem('scrollPosition', window.scrollY.toString())
                             }>
