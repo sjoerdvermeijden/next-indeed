@@ -17,7 +17,7 @@ function Jobs({ }) {
         }
     }, []);
     return (
-        <div className='w-[495px] min-w-[495px]'>
+        <div className='w-full sm:w-[495px] sm:min-w-[495px]'>
             <ul className='list-none'>
                 {
                     jobs.map((item) => {

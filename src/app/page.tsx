@@ -23,7 +23,7 @@ export default function Home({ }) {
   return (
     <>
       <Wrap>
-        <div className='flex justify-center gap-6 py-12 relative grow'>
+        <div className='relative sm:flex sm:justify-center sm:gap-6 sm:py-12 sm:grow'>
           <Jobs />
           {
             vacancy &&
