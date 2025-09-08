@@ -11,7 +11,7 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
     return (
         <div className="hidden md:block border rounded-md w-full sticky h-[calc(100vh-30px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
             <div className='sticky top-0 left-0 bg-white'>
-                <div className='aspect-[5/1] mb-11 relative'>
+                <div className='relative h-[76px] lg:h-[132px] xl:h-[160px] mb-4 lg:mb-8 xl:mb-11'>
                     <Image
                         src="https://placehold.co/530x120"
                         width={0}
@@ -21,16 +21,18 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                         quality={75}
                         alt="placeholder"
                     />
-                    <Image
-                        src="https://placehold.co/60x60"
-                        width={0}
-                        height={0}
-                        style={{ height: '60px', width: '60px', borderRadius: '5px', position: 'absolute', top: '160px', left: '14px', objectFit: "cover", boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)' }}
-                        quality={75}
-                        alt="placeholder"
-                    />
+                    <figure className='absolute top-0 left-0 w-[60px] h-[60px] rounded-sm z-10 xl:top-[160px] xl:left-[20px]'>
+                        <Image
+                            src="https://placehold.co/60x60"
+                            width={0}
+                            height={0}
+                            style={{ width: '100%', height: '100%', objectFit: "cover" }}
+                            quality={75}
+                            alt="placeholder"
+                            />
+                    </figure>
                 </div>
-                <div className='p-4 shadow-md'>
+                <div className='p-5 shadow-md'>
                     <div className='mb-2'>
                         <h3 className='text-2xl font-bold mb-4'>{title}</h3>
                         <div className='flex items-center mb-1'>
@@ -44,14 +46,14 @@ function HighlightedJob({ title, company, description, postal_code, salary, cont
                 </div>
             </div>
             <div>
-                <div className='border-b-1 p-4 '>
+                <div className='border-b-1 p-5'>
                     <h3 className='text-2xl font-bold mb-4'>Locatie</h3>
                     <div className='flex items-center'>
                         <IconMapPinFilled size={20} className='mr-4' />
                         <p className='-mb-1 text-lg'>{postal_code}</p>
                     </div>
                 </div>
-                <div className='border-b-1 p-4'>
+                <div className='border-b-1 p-5'>
                     <h3 className='text-2xl font-bold mb-4'>Vacaturegegevens</h3>
                     <ul>
                         <li className='flex mb-4'>
