@@ -13,7 +13,7 @@ export default function Layout({ children }: Props) {
     return (
         <>
             <Wrap>
-                <div className='relative w-full py-12 sm:flex sm:justify-center sm:gap-6 sm:grow'>
+                <div className='relative w-full py-12 sm:flex sm:justify-center sm:gap-7 sm:grow'>
                     <Jobs />
                     {children}
                 </div>
