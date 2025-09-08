@@ -16,7 +16,7 @@ function SingleJob({ id, title, company, short_description, postal_code, contrac
                 <p>{postal_code}</p>
             </div>
             <div className='bg-gray-200 py-1 px-2 rounded-xl font-bold inline-block mb-2 text-sm'>{contract_type}</div>
-            <div className='p-4' dangerouslySetInnerHTML={{ __html: short_description }}></div>
+            <div className='py-4' dangerouslySetInnerHTML={{ __html: short_description }}></div>
         </div >
     )
 }
