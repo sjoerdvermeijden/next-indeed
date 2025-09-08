@@ -9,10 +9,10 @@ import { Job } from '../../types/job'
 function HighlightedJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
 
     return (
-        <div className="hidden md:block border rounded-md w-full sticky h-[calc(100vh-30px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
+        <div className="hidden md:block border rounded-xl w-full sticky h-[calc(100vh-30px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
             <div className='sticky top-0 left-0 bg-white'>
                 <div className='relative h-[76px] w-full lg:h-[132px] xl:h-[160px] mb-10 lg:mb-11'>
-                    <figure className='h-full w-full rounded-t-sm overflow-hidden'>
+                    <figure className='h-full w-full rounded-t-xl overflow-hidden'>
                         <Image
                             src="https://placehold.co/530x120"
                             width={0}
