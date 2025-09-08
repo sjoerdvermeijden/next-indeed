@@ -23,7 +23,7 @@ export default function Home({ }) {
   return (
     <>
       <Wrap>
-        <div className='relative w-full sm:flex sm:justify-center sm:gap-6 sm:grow'>
+        <div className='relative w-full sm:flex sm:justify-center sm:gap-7 sm:grow'>
           <Jobs />
           {
             vacancy &&
