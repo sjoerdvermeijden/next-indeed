@@ -9,7 +9,7 @@ import { Job } from '../../types/job'
 function HighlightedJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
 
     return (
-        <div className="border rounded-md w-full sticky h-[calc(100vh-30px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
+        <div className="hidden md:block border rounded-md w-full sticky h-[calc(100vh-30px)] overflow-hidden top-4 left-0 overflow-y-auto overscroll-y-auto">
             <div className='sticky top-0 left-0 bg-white'>
                 <div className='aspect-[5/1] mb-11 relative'>
                     <Image
