@@ -27,11 +27,17 @@ function JobPage({ }) {
         {
             width > 768 ?
             <>
-                <HighlightedJob {...vacancy} />
+                {
+                    vacancy &&
+                    <HighlightedJob {...vacancy} />
+                }
             </>
             :
             <>
-                <SingleJob {...vacancy} />
+                {
+                    vacancy &&
+                    <SingleJob {...vacancy} />
+                }
             </>
         }
         </>
