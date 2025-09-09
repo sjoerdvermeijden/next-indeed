@@ -9,7 +9,7 @@ import { Job } from '@/app/types/job'
 function SingleJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
   return (
     <>
-        <div className='relative h-[76px] w-full lg:h-[132px] xl:h-[160px] mb-10 lg:mb-11'>
+        <div className='relative h-[115px] px-5 py-6 w-full lg:h-[160px] xl:h-[190px] mb-5 lg:mb-11'>
           <figure className='h-full w-full overflow-hidden'>
               <Image
                   src="https://placehold.co/530x120"
@@ -21,7 +21,7 @@ function SingleJob({ title, company, description, postal_code, salary, contract_
                   alt="placeholder"
                   />
           </figure>
-          <figure className='absolute top-[55px] lg:top-[117px] xl:top-[148px] left-[17px] w-[60px] h-[60px] rounded-md overflow-hidden z-10 shadow-[0px_2px_6px_0px_rgba(0,_0,_0,_0.1)]'>
+          <figure className='absolute top-[65px] lg:top-[125px] xl:top-[148px] left-[30px] w-[60px] h-[60px] rounded-md overflow-hidden z-10 shadow-[0px_2px_6px_0px_rgba(0,_0,_0,_0.1)]'>
               <Image
                   src="https://placehold.co/60x60"
                   width={0}
