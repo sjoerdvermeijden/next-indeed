@@ -17,7 +17,7 @@ export default function Layout({ children }: Props) {
     return (
         <>
             <Wrap>
-                <div className='relative w-full sm:flex sm:justify-center sm:gap-7 sm:grow'>
+                <div className='relative w-full md:flex md:justify-center md:gap-7 md:grow'>
                     {
                         width > 768 ?
                         (
