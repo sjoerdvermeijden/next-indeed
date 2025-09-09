@@ -9,7 +9,7 @@ import { Job } from '@/app/types/job'
 function SingleJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
   return (
     <>
-        <div className='relative h-[115px] px-5 py-6 w-full lg:h-[160px] xl:h-[190px] mb-4 lg:mb-11'>
+        <div className='relative h-[115px] p-6 w-full lg:h-[160px] xl:h-[190px] mb-4 lg:mb-11'>
           <figure className='h-full w-full overflow-hidden'>
               <Image
                   src="https://placehold.co/530x120"
