@@ -28,6 +28,8 @@ function Jobs({ }) {
             <ul className='list-none'>
 
                 {
+                    width &&
+                    
                     width > 768 ?
                     (
                         <>

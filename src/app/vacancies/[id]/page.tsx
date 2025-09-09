@@ -25,6 +25,8 @@ function JobPage({ }) {
     return (
         <>
         {
+            width &&
+
             width > 768 ?
             <>
                 {
