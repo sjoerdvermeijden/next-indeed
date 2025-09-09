@@ -9,7 +9,7 @@ import { Job } from '@/app/types/job'
 function SingleJob({ title, company, description, postal_code, salary, contract_type, work_days }: Job) {
   return (
     <>
-        <div className='relative h-[115px] px-5 py-6 w-full lg:h-[160px] xl:h-[190px] mb-5 lg:mb-11'>
+        <div className='relative h-[115px] px-5 py-6 w-full lg:h-[160px] xl:h-[190px] mb-4 lg:mb-11'>
           <figure className='h-full w-full overflow-hidden'>
               <Image
                   src="https://placehold.co/530x120"
@@ -32,7 +32,7 @@ function SingleJob({ title, company, description, postal_code, salary, contract_
                   />
           </figure>
       </div>
-      <div className='p-5'>
+      <div className='p-6'>
           <div className='mb-2'>
               <h3 className='text-3xl font-bold mb-4'>{title}</h3>
               <div className='flex items-center mb-1'>
@@ -88,7 +88,7 @@ function SingleJob({ title, company, description, postal_code, salary, contract_
             </ul>
         </div>
         <div>
-            <div className='p-4' dangerouslySetInnerHTML={{ __html: description }}></div>
+            <div className='p-6' dangerouslySetInnerHTML={{ __html: description }}></div>
         </div>
       </div>
     </>
