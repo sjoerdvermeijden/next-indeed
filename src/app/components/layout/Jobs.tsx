@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 
 import Link from 'next/link'
 
-import SingleJob from './SingleJob'
+import JobItem from './JobItem'
 
 import { jobs } from '../../../../data'
 
@@ -27,7 +27,7 @@ function Jobs({ }) {
                             <Link href={`/jobs/${item.id}`} onClick={() =>
                                 sessionStorage.setItem('scrollPosition', window.scrollY.toString())
                             }>
-                                <SingleJob {...item} />
+                                <JobItem {...item} />
                             </Link>
                         </li>;
                     })
