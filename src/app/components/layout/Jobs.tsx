@@ -17,7 +17,7 @@ function Jobs({ }) {
         }
     }, []);
     return (
-        <div className='w-full md:w-[410px] lg:w-[470px] xl:w-[495px] shrink-0'>
+        <div className='w-full md:w-[410px] md:m-w-[410px] lg:w-[470px] xl:w-[495px] shrink-0'>
             <h3 className='text-2xl font-bold mb-6'>Vacatures voor jou</h3>
             <p className='mb-4'>Vacatures op basis van je interesses op Indeed</p>
             <ul className='list-none'>
